@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "viewmodel",
+  "version": "${version}",
+  "name": "Viewmodel",
+  "description": "A mod to change the scaling/position of first person items",
+  "authors": [
+    "CyberFlame",
+    "Ethius"
+  ],
+  "contact": {
+    "website": "none"
+  },
+  "license": "MIT",
+  "icon": "assets/viewmodel/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.cyberflame.viewmodel.Viewmodel"
+    ]
+  },
+  "mixins": [
+    "viewmodel.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.2",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
